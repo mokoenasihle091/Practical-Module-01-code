@@ -5,17 +5,11 @@ using namespace std;
 int main()
 {
    int choice;
-   int x =0;
 
-   do {
-    cout << "print execution" ;
-    cout << x<<"\n";
-    x++ ;
-   } while (x<5);
+   cout << "select you order: 1 For Coffee ; 2 for Tea "<<"\n";
 
 
-
-  /* cin >> choice;
+   cin >> choice;
 
    switch (choice) {
     case 1:
@@ -29,6 +23,6 @@ int main()
     default:
         cout<< "Order not found" ;
    }
-*/
+
     return 0;
 }
